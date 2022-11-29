@@ -1,0 +1,78 @@
+body {
+    background-color: #131417;
+    color: white;
+}
+body h1 {
+    margin-top: 2.5em;
+}
+
+.navbar {
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    text-align: center;
+    background-color: #222221;
+    display: block;
+}
+
+.navbar ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    text-decoration: underline overline;
+    background-color: white;
+    color: green;
+}
+
+.index {
+    text-align: center;
+}
+
+.index section {
+  padding: 2px;
+  border: solid .5em;
+  border-color: forestgreen;
+}
+
+.index li {
+    list-style: none;
+}
+.home {
+    text-align: center;
+}
+
+
+.about {
+    text-align: center;
+}
+
+.about video {
+    height: 20em;
+    width: 20em;
+}
+
+#img-skyline {
+  height: 15%;
+  width: 30%;
+}
+
+#img-food1 {
+  height: 25%;
+  width: 25%;
+}
+#img-arch {
+  height: 25%;
+  width: 25%;   
+}
