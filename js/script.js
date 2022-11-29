@@ -9,7 +9,7 @@ function initMap() {
 
     // The map, centered at Uluru
     const map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 8,
+        zoom: 7,
         center: chicago,
     });
     // The marker, positioned at chicago
@@ -31,12 +31,7 @@ function initMap() {
         content: "<p>Delicous barbecue in Saint Louis. </p>"
     });
     saltSmokeInfo.open(map, saltSmokeLocaton);
-
-
-
 }
-
-
 
 window.initMap = initMap;
 
