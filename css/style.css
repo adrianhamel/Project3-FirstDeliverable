@@ -32,13 +32,14 @@ body h1 {
     color: white;
     text-decoration: none;
 }
-
-.navbar ul li a:hover{
+@media (any-hover: hover) {
+  .navbar ul li a:hover{
     text-decoration: underline overline;
     background-color: white;
     color: green;
-}
 
+  }
+}
 .index {
     text-align: center;
 }
