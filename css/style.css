@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
 body {
     background-color: #131417;
     color: white;
@@ -66,6 +69,14 @@ body h1 {
 .map {
   text-align: center;
   list-style: none;
+}
+
+#map {
+  height: 40vw;
+  width: 80%;
+  padding: 2px;
+  border: solid .5em;
+  border-color: forestgreen;
 }
 
 #img-skyline {

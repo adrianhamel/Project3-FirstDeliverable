@@ -14,11 +14,11 @@ function initMap() {
     });
     // The marker, positioned at chicago
     const ramenSanLocation = new google.maps.Marker({
-        position: Jims,
+        position: ramenSan,
         map: map,
     });
     const saltSmokeLocaton = new google.maps.Marker({
-        position: Lea,
+        position: saltSmoke,
         map: map,
     });
 
