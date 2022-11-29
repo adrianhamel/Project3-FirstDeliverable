@@ -93,3 +93,8 @@ body h1 {
   height: 25%;
   width: 25%;   
 }
+
+.slideshow-img {
+  max-width: 40%;
+  max-height: 40%;
+}
