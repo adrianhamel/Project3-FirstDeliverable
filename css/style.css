@@ -63,6 +63,11 @@ body h1 {
     width: 20em;
 }
 
+.map {
+  text-align: center;
+  list-style: none;
+}
+
 #img-skyline {
   height: 15%;
   width: 30%;

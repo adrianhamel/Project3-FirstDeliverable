@@ -3,8 +3,8 @@
 function initMap() {
     // The location of Ramen san in chicago and salt + smoke in ST. louis
     const chicago = { lat: 41.879986017565244, lng: -87.63656953822385 }; //chicago 41.879986017565244, -87.63656953822385
-    const Jims = {lat: 41.8662512919878, lng:-87.64522299999845 }; //jims originial maxwll polish 41.8662512919878, -87.64522299999845
-    const Lea = {lat:41.89057935743531, lng: -87.625006555568}//Lea Street Food 41.89057935743531, -87.625006555568
+    const ramenSan = {lat: 41.894863724185996, lng: -87.62286475530867 }; //Ramen San Deluxe 41.89499949009929, -87.62273600927955
+    const saltSmoke = {lat:38.623758272376556, lng: -90.19020464918701}//Salt + Smoke: 38.623758272376556, -90.19020464918701
 
 
     // The map, centered at Uluru
@@ -13,24 +13,24 @@ function initMap() {
         center: chicago,
     });
     // The marker, positioned at chicago
-    const jimslocation = new google.maps.Marker({
+    const ramenSanLocation = new google.maps.Marker({
         position: Jims,
         map: map,
     });
-    const lealocaton = new google.maps.Marker({
+    const saltSmokeLocaton = new google.maps.Marker({
         position: Lea,
         map: map,
     });
 
-    var jimsinfo = new google.maps.InfoWindow({
-        content: "<p>Best and Maxwell street polish in chicago</p>"
+    var ramenSanInfo = new google.maps.InfoWindow({
+        content: "<p>Amazing ramen dishes</p>"
     });
-    jimsinfo.open(map, jimslocation);
+    ramenSanInfo.open(map, ramenSanLocation);
 
-    var leainfo = new google.maps.InfoWindow({
-        content: "<p>Authentic French street food, baguetes and crossiants</p>"
+    var saltSmokeInfo = new google.maps.InfoWindow({
+        content: "<p>Delicous barbecue in Saint Louis. </p>"
     });
-    leainfo.open(map, lealocaton);
+    saltSmokeInfo.open(map, saltSmokeLocaton);
 
 
 

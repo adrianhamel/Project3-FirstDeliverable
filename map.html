@@ -6,12 +6,10 @@
     <title>ITMD-361 Project 3</title>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxdcIvyZAzhd3lbVmFcxD1ZVwnVCd8CUE&callback=initMap&v=weekly"></script>
-    <script type="module" src="js/script.js"></script>
+    <script src="js/script.js"></script>
   </head>
-  <body class="page4">
-    <header>
-      <nav id="main-navbar">
+  <body class="map">
+      <nav class="navbar">
         <div id="navbar-container">
             <ul>
               <li><a href="index.html">Resume</a></li>
@@ -21,7 +19,8 @@
             </ul>
         </div>
       </nav>
-    </header>
-    <div id="map"></div>
+    <div id="map">
+      <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxdcIvyZAzhd3lbVmFcxD1ZVwnVCd8CUE&callback=initMap&v=weekly"></script>
+    </div>
   </body>
 </html>
